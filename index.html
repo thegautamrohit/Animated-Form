@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Animated Form</title>
+  </head>
+  <body>
+    <form>
+      <div class="field-name">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Username" required />
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <div class="field-email inactive">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="Email" required />
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <div class="field-password inactive">
+        <i class="fas fa-key"></i>
+        <input type="password" placeholder="Password" required />
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <div class="field-finish inactive">
+        <i class="fas fa-heart"></i>
+        <p>Thank You!</p>
+        <i class="fas fa-heart"></i>
+      </div>
+    </form>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
